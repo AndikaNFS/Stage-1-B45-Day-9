@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color:#e0e3e8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+header{
+    position: relative;
+
+    top: 100;
+    right: 10;
+    left: 100;
+    background-color: white; 
+    margin-bottom: 20px;
+    border-top-width: 10px;
+}
+nav{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content:space-between;
+    height: 60px;
+    /* float: left; */
+    /* width: 25%; */
+}
+
+.nav-left ul {
+    display: flex;
+    /* background-color: red; */
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+    padding-right: 100px;
+}
+.nav-left ul li {
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-left ul li a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color:coral;
+}
+.nav-left ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-left ul a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding: 8px 25px 8px 25px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.nav-right a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.hamburger-nav-container {
+    font-size: 20px;
+    display: none;
+}
+.hamburger-nav-container .hamburger-active {
+    background-color: orangered;
+}
+.hamburger-nav-container a {
+    color: black;
+    background-color:lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* border: 1px solid #fff; */
+}
+.hamburger-nav-container .hamburger-contact {
+    display: flex;
+    justify-content: center;
+    padding: 8px 25px 8px 25px;
+    /* margin: 20px; */
+    /* border-radius: 10px; */
+    background-color:lightgray;
+}
+.hamburger-nav-container .hamburger-contact a {
+    /* background-color: black;  */
+    color: white;
+    background-color: black;
+    justify-content: center;
+    width: 13%;
+    border-radius: 10px;
+    font-weight: bold; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#barmenu {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-left ul li a {
+        display: none;
+    }
+
+    #barmenu {
+        display: block;
+    }
+
+    .nav-right {
+        display: none;
+    }
+    .nav-right a {
+        display: none;
+    }
+
+    
+
+}

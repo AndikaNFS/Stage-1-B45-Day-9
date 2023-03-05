@@ -1,0 +1,64 @@
+
+/* Content */
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.title h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.detail{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.detail .sub-detail div {
+    margin: 10px;
+}
+.detail .sub-detail div label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.detail .sub-detail .sub-detail-1 {
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+.detail .sub-detail .sub-detail-1 .detail-duration span {
+    font-size: 15px;
+    /* background-color: red; */
+}
+
+.detail .sub-detail .sub-detail-2 {
+    /* background-color: blue; */
+    /* display: flex; */
+    width: 100%;
+}
+.detail .sub-detail .detail-2 {
+    font-size: 18px;
+    /* background-color: red; */
+    /* display:flexbox; */
+    /* margin: 0px; */
+}
+.detail .sub-detail .detail-2 .detail-tech-1 {
+    /* background-color: green; */
+    display: flex; 
+    width: 250px;
+    justify-content: space-between;
+}
+.detail .sub-detail .detail-2 .detail-tech-2 {
+    /* background-color: green; */
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.content p {
+    text-align: justify;
+}

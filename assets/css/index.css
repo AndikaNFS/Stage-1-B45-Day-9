@@ -1,0 +1,184 @@
+
+/* Content */
+
+.container {
+    padding: 10px; 
+    background-color: white;
+    border: 1px solid white; 
+    width: 70%; margin: 50px auto; 
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0 grey;
+}
+
+section {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+section p {
+    text-align:justify; 
+    font-size: 1em;
+}
+
+section div button {
+    background-color: black; color: white; 
+    font-size: 17px; 
+    padding: 3px 1.5em 5px 1.5em; 
+    margin: 0px 0 10px 0px;
+}
+
+.flex-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+h1 {
+    font-size: 2em;
+}
+
+
+.download {
+    font-size: 20px; 
+    font-weight: 400;
+    margin-left: 20px;
+    display: inline;
+}
+
+.download button {
+    font-size: 20px; 
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.sosmed {
+    margin-top: 30px; 
+    display: flex;
+}
+.sosmed a i {
+    color: white; 
+    padding: 3px; 
+    border: 5px solid black; 
+    background-color: black; 
+    border-radius: 50%; 
+    margin-left: 10px;
+} 
+.sosmed a span i {
+    color: black; 
+    /* border: 0px solid white; */
+    border: none;
+    /* color: white; */
+    /* margin-left: 20px; */
+    background-color: white;
+    font-size: 3em;
+}
+
+.flex-section .photo-container {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    height: 30%;
+}
+.card-photo {
+    box-shadow: 0 0px 15px 0px grey; 
+    width: 70%;
+    height: 100%; 
+    text-align: center; 
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;;
+}
+.flex-right{
+    background-color: aqua;
+}
+.card {
+    width: 50%;
+}
+.card a button{
+    border-radius: 30px;
+    font-size: 20px;
+}
+.card p {
+    margin-bottom: 40px;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    /* .flex-section {
+        display: none;
+    } */
+}
+@media only screen and (max-width: 900px) {
+    .flex-section {
+        /* background-color: red; */
+        display: grid;
+        padding: 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .flex-section .photo-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .flex-section .photo-container .card-photo {
+        box-shadow: 0 0px 15px 0px grey;
+        /* border: 10px solid  black;  */
+        width: 60%;
+        height: 100%; 
+        text-align: center; 
+        margin: 10px 0px 10px 0px;
+        border-radius: 10px;
+    }
+
+    .sosmed {
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+        display: flex;
+        justify-content: center;
+    }
+    .sosmed a i {
+        color: white; 
+        padding: 3px; 
+        border: 5px solid black; 
+        background-color: black; 
+        border-radius: 50%; 
+        margin-left: 10px;
+        font-size: 1.5em;
+    } 
+    .sosmed a span i {
+        color: black; 
+        /* border: 0px solid white; */
+        /* border: none; */
+        /* color: white; */
+        /* margin-left: 20px; */
+        background-color: white;
+        font-size: 2.5em;
+    }
+    .download {
+        font-size: 15px; 
+        font-weight: 400;
+        margin-left: 20px;
+        display: inline;
+    }
+
+    .flex-section .card a button {
+        background-color: black; color: white; 
+        font-size: 13px; 
+        padding: 3px 1.5em 5px 1.5em; 
+        margin: 0px 0 10px 0px;
+    }
+    section div a button {
+        background-color: black; color: white; 
+        font-size: 10px; 
+        padding: 3px 1.5em 5px 1.5em; 
+        margin: 0px 0 10px 0px;
+    }
+}
